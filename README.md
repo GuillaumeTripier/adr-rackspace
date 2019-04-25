@@ -41,7 +41,7 @@ Mailtrust est une subdivision de rackspace. Les techniciens de l'assistance tech
 * #### Contexte 3
     Les entrées des logs ne sont plus directement ajouté dans une seule base de données. Elles sont stockées dans la table de la base de données qui est nouvelle toutes les 10 minutes.
 * #### Problématique 3
-  * Cette version du système de journalisation a fonctionné de manière fiable pendant environ un an. Mais il y a ddes problèmes qui surviennent due au nombre de clients, serveurs. Des problèmes étranges tels que des erreurs aléatoires lors de la création de nouvelles tables dans la base de données. Ces erreurs deviennent de plus en plus fréquentes ce qui cause des pertes de logs.
+  * Cette version du système de journalisation a fonctionné de manière fiable pendant environ un an. Mais il y a des problèmes qui surviennent due au nombre de clients, serveurs. Des problèmes étranges tels que des erreurs aléatoires lors de la création de nouvelles tables dans la base de données. Ces erreurs deviennent de plus en plus fréquentes ce qui cause des pertes de logs.
   * L'équipe du support perd confiance en la précision du système. Il arrive à plusieurs reprises que les ingénieurs effectuent une mise à niveau logicielle vers une application particulière. Cela modifie le format des logs ce qui provoque un disfonctionnement des scripts. Comme le nombre de clients augmente, le système se doit d'être évolutif.
   
 * #### Cas d’utilisation
